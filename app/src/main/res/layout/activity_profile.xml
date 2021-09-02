@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/as"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="MY PROFILE"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:id="@+id/profile"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/edit_text_curved_white"
+            android:hint="@string/Name"
+            android:drawableStart="@drawable/ic_person"
+            android:inputType="text"
+            android:paddingStart="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textStyle="italic"
+            android:layout_below="@+id/profile"
+            android:textSize="17sp"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="10dp"
+            android:id="@+id/pname"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_curved_white"
+            android:layout_below="@+id/pname"
+            android:hint="Email"
+            android:paddingStart="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textStyle="italic"
+            android:drawableStart="@drawable/ic__email"
+            android:textSize="17sp"
+            android:textColorHint="@color/black"
+            android:id="@+id/pemail"
+            android:inputType="text"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/edit_text_curved_white"
+            android:hint="@string/Address"
+            android:drawableStart="@drawable/ic_house"
+            android:inputType="text"
+            android:paddingStart="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textStyle="italic"
+            android:layout_below="@+id/pemail"
+            android:textSize="17sp"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="20dp"
+            android:id="@+id/paddress"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_curved_white"
+            android:layout_below="@+id/paddress"
+            android:hint="Mobile"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textStyle="italic"
+            android:paddingStart="10dp"
+            android:drawableStart="@drawable/ic_mobile"
+            android:textSize="17sp"
+            android:textColorHint="@color/black"
+            android:id="@+id/pmob"
+            android:inputType="number"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_black"
+            android:text="CHANGE PROFILE"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:id="@+id/changeprobtn"/>
+
+</LinearLayout>
+
+</RelativeLayout>

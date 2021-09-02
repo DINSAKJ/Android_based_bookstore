@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download2"
+    tools:context=".RegistrationActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="REGISTRATION"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:id="@+id/register"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerInParent="true">
+        
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:hint="@string/Name"
+    android:drawableStart="@drawable/ic_person"
+    android:inputType="text"
+    android:textColor="@color/black"
+    android:layout_marginStart="0dp"
+    android:layout_marginEnd="20dp"
+    android:textStyle="bold"
+    android:padding="10dp"
+    android:drawablePadding="10dp"
+    android:layout_below="@+id/Register"
+    android:textSize="17sp"
+    android:textColorHint="@color/black"
+    android:layout_marginTop="20dp"
+    android:id="@+id/name"/>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:drawablePadding="10dp"
+   android:layout_below="@+id/username"
+    android:hint="@string/Age"
+    android:layout_marginStart="0dp"
+    android:layout_marginEnd="20dp"
+    android:textStyle="bold"
+    android:drawableStart="@drawable/ic_person_outline_24"
+    android:textSize="17sp"
+    android:textColor="@color/black"
+    android:textColorHint="@color/black"
+    android:id="@+id/age"
+    android:inputType="number"/>
+
+   <RadioGroup
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/gender"
+       android:layout_marginStart="10dp"
+       android:orientation="horizontal">
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:text="Male"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+       android:id="@+id/male"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="0dp"
+        android:text="Female"
+        android:id="@+id/female"
+        android:textSize="17sp"/>
+
+      <RadioButton
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:padding="0dp"
+          android:drawablePadding="5dp"
+        android:text="@string/others"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+        android:id="@+id/others"
+          android:textSize="17sp"/>
+
+    </RadioGroup>
+   <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+       android:layout_marginStart="0dp"
+       android:layout_marginEnd="20dp"
+       android:padding="10dp"
+       android:hint="@string/address"
+       android:drawableStart="@drawable/ic_house"
+       android:inputType="text"
+
+       android:textStyle="bold"
+       android:textColorHint="@color/black"
+       android:textColor="@color/black"
+       android:id="@+id/address"
+       android:textSize="17sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:hint="@string/mobile"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="20dp"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_mobile"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:id="@+id/mobile"
+        android:textSize="17sp"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:drawablePadding="10dp"
+            android:hint="@string/email"
+            android:drawableStart="@drawable/ic__email"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:id="@+id/email"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="20dp"
+            tools:ignore="TextFields" />
+
+
+
+
+
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:drawablePadding="10dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/Username"
+            android:textStyle="bold"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/username"
+            android:drawableStart="@drawable/ic_person"
+        android:textSize="17sp"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:hint="@string/password"
+        android:drawableStart="@drawable/ic_lock"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="@color/black"
+        android:inputType="numberPassword"
+        android:id="@+id/password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:drawablePadding="10dp"
+            android:hint="Confirm password"
+            android:drawableStart="@drawable/ic_lock"
+            android:textColorHint="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="20dp"
+            android:inputType="numberPassword"
+            android:id="@+id/confirmpass"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+        <EditText
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:hint="@string/otp"
+            android:padding="10dp"
+            android:drawablePadding="10dp"
+    android:textColorHint="@color/black"
+    android:textSize="17sp"
+    android:textStyle="bold"
+    android:layout_marginStart="0dp"
+    android:drawableStart="@drawable/ic_lock"
+    android:id="@+id/otp"
+    android:inputType="number"
+    android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_otp"
+
+        android:background="@drawable/edit_text_curved_white"
+        android:textSize="18sp"
+        android:id="@+id/otpbtn"
+        android:textColor="@color/black"
+        android:layout_marginStart="0dp"
+        android:paddingHorizontal="10dp"
+        />
+
+    </LinearLayout>
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/edit_text_curved_white"
+              android:text="@string/Register"
+              android:textSize="18sp"
+              android:textColor="@color/black"
+              android:layout_marginTop="20dp"
+              android:layout_marginLeft="50dp"
+              android:layout_marginRight="50dp"
+              android:id="@+id/regbtn">
+
+          </Button>
+    </LinearLayout>
+
+</RelativeLayout>

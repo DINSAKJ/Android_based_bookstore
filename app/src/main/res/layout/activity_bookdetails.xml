@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+   <ImageView
+       android:id="@+id/imgv"
+       android:layout_width="match_parent"
+       android:layout_height="300dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="10dp"
+       android:scaleType="fitXY" />
+
+
+    <TextView
+        android:id="@+id/bdid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book id"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/bdtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/bdauthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/bdpublished"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Published"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"/>
+
+
+        <TextView
+            android:id="@+id/bddesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/bdcategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/bdlang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"/>
+
+
+ <TextView
+            android:id="@+id/bdpgno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of pages"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/bdprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/bdrtamt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rent Amount"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/bdqty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/buybtn"
+            android:gravity="center"
+            android:background="@drawable/button_shape"
+            android:text="BUY BOOK"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:id="@+id/rentbtn"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_shape"
+            android:text="RENT BOOK"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">STORE</string>
+
+
+    <string name="LOGIN">LOGIN</string>
+    <string name="Username">Username</string>
+    <string name="password">Password</string>
+    <string name="Register">Register</string>
+    <string name="registration">REGISTRATION</string>
+    <string name="age">Age</string>
+    <string name="name">Name</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="Age">Age</string>
+    <string name="Name">Name</string>
+    <string name="Confirm_password">Confirm password</string>
+    <string name="login_btn">login_btn</string>
+    <string name="username">username</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="Address">Address</string>
+    <string name="others">Others</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="otp">OTP</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="forget_your_password">Forget your password??</string>
+    <string name="home_page">Home page</string>
+    <string name="search_books">Search books</string>
+    <string name="used_sales">Used sales</string>
+    <string name="pdf_book">PDF book</string>
+    <string name="rent_books">Rent books</string>
+    <string name="complaint">Complaint</string>
+    <string name="feedback">Feedback</string>
+    <string name="my_profile">My profile</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="address">Address</string>
+    <string name="Browse">Browse</string>
+    <string name="published">Published</string>
+    <string name="img">img</string>
+
+
+</resources>

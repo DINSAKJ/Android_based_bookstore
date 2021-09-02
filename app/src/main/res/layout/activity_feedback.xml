@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http:/schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/as"
+    tools:context=".Feedback"
+    tools:ignore="NamespaceTypo">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerInParent="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/feedbacktext"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:layout_marginTop="80dp"
+        android:text="FEEDBACK"/>
+
+
+    <EditText
+        android:id="@+id/fedit"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Please enter your valuable feedback"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edit_text_curved_white" />
+
+    <Button
+        android:id="@+id/fbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_black"
+        android:text="SEND FEEDBACK"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+</LinearLayout>
+
+
+
+
+</RelativeLayout>
